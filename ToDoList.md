@@ -1,18 +1,16 @@
 ## To Do
 
+
+
 # - Task 1: 
-Normalize price
-turn weekly price into monthly price
+find suitable model - bair
 # - Task 2: 
-normalize location
-categorize location by county
+web scrapper - james (DONE)
+data normalize - james (DONE)
 # - Task 3: 
-normalize bedroom count
-have just an int as bedroom count, remove 'bedrooms'
+implement model - bair & seva & james 
 # - Task 4: 
-normalize bathrooom count
-have just an int as bathroom count, remove 'bathroom'
+model validation - bair & seva & james
 # - Task 5: 
-normalize furnish_state
-0 = furnished, 1 = unfurnished
+report - bair & seva & james
 # - Task 6: 
