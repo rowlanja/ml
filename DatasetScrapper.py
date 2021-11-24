@@ -6,16 +6,17 @@
 #pip3 install requests
 #pip3 install bs4
 #pip install selenium
-
+#pip install csv
 #run in the browser also what are you doing with the help of chrome driver
 
 
 # import these two modules bs4 for selecting HTML tags easily
 from bs4 import BeautifulSoup
-# requests module is easy to operate some people use urllib but I prefer this one because it is easy to use.
-import requests
 from selenium import webdriver
 
+# requests module is easy to operate some people use urllib but I prefer this one because it is easy to use.
+import requests
+import csv
 urls=[]
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/")
 urls.append("https://www.rent.ie/houses-to-let/renting_antrim/")
@@ -100,7 +101,9 @@ def get_properties(url):
 def create_property(html):
     try:
         ## property_info contains property characteristics like bedroom count, bathroom count, furnished state
-        property_info = html.find("div", class_='sresult_description').find('h3').text.split(',')
+        property_info = html.find("div", class_='sresult_description').find('h3').text.strip()
+        ## this removes the types of bedrooms the property has e.g '1 single, 2 double'
+        property_info = ((property_info[:property_info.find("(")-1]) + (property_info[property_info.find(")")+1:])).split(',')
         new_property = Property(
             location = (html.find("a").text),
             price = (html.find("div", class_='sresult_description').find('h4').text),
