@@ -101,6 +101,7 @@ def create_property(html, county_index):
         property_info = html.find("div", class_='sresult_description').find('h3').text.strip()
         ## this removes the types of bedrooms the property has e.g '1 single, 2 double'
         property_info = ((property_info[:property_info.find("(")-1]) + (property_info[property_info.find(")")+1:])).split(',')
+        ## normalised furnishings. unfurnished = 1, furnished = 0
         furnished = 1 if ("unfurnished" in (property_info[2])) else 0
         price = html.find("div", class_='sresult_description').find('h4').text.replace(" ", "").replace(",", "").strip()[1:]
         price = price[:price.find("(")]
