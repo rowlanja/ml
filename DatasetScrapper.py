@@ -54,11 +54,11 @@ urls.append("https://www.rent.ie/houses-to-let/renting_wicklow/")
 class Property:
     def __init__(self, price, location, bedroom_count, bathroom_count, furnished_state):
         # strip() removes new line characters
-        self.price = price.strip()
-        self.location = location.strip()
-        self.bedroom_count = bedroom_count.strip()
-        self.bathroom_count = bathroom_count.strip() 
-        self.furnished_state = furnished_state.strip()
+        self.price = price
+        self.location = location
+        self.bedroom_count = bedroom_count
+        self.bathroom_count = bathroom_count 
+        self.furnished_state = furnished_state
     
     def __str__(self):
         price = ("price =" + self.price + "\n")
