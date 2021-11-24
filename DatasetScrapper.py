@@ -149,7 +149,7 @@ def print_dataset(dataset):
     print("Dataset contains : ", len(dataset), " properties") 
 
 def update_csv(dataset_arr):
-    fields = ['location', 'price', 'bedroom_count', 'bathroom_count', 'furnished_state'] 
+    fields = ['price', 'location', 'bedroom_count', 'bathroom_count', 'furnished_state'] 
 
     with open('dataset.csv', 'w', encoding='utf-8') as f:
         # using csv.writer method from CSV package

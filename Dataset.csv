@@ -1,4 +1,4 @@
-location,price,bedroom_count,bathroom_count,furnished_state
+price,location,bedroom_count,bathroom_count,furnished_state
 "2,100","Belton Park Road, Donnycarney, Donnycarney, Dublin 9",3,1,0
 "1,875","Holywell Crescent South, Swords, Co. Dublin",3,3,0
 "2,125","Sundale Villas, Tallaght, Tallaght, Dublin 24",3,2,0
