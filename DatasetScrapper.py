@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#Requirements
+#PUT ALL REQUIREMENTS HERE
+#if command fails try with pip instead of pip3
 #pip3 install requests
 #pip3 install bs4
+#pip install selenium
 
 #run in the browser also what are you doing with the help of chrome driver
 
-# ## Basic fundamentals of web scraping
 
 # import these two modules bs4 for selecting HTML tags easily
 from bs4 import BeautifulSoup
@@ -15,8 +16,8 @@ from bs4 import BeautifulSoup
 import requests
 from selenium import webdriver
 
-urls = []
-rentie_dublin = "https://www.rent.ie/houses-to-let/renting_dublin/"
+urls=[]
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/")
 urls.append("https://www.rent.ie/houses-to-let/renting_antrim/")
 urls.append("https://www.rent.ie/houses-to-let/renting_armagh/")
 urls.append("https://www.rent.ie/houses-to-let/renting_carlow/")
@@ -45,12 +46,20 @@ urls.append("https://www.rent.ie/houses-to-let/renting_longford/")
 urls.append("https://www.rent.ie/houses-to-let/renting_louth/")
 
 class Property:
-  def __init__(self, price, location, bedroom_count, bathroom_count, furnished_state):
-    self.price = price
-    self.location = location
-    self.bedroom_count = bedroom_count
-    self.bathroom_count = bathroom_count 
-    self.furnished_state = furnished_state
+    def __init__(self, price, location, bedroom_count, bathroom_count, furnished_state):
+        self.price = price.strip()
+        self.location = location.strip()
+        self.bedroom_count = bedroom_count.strip()
+        self.bathroom_count = bathroom_count.strip() 
+        self.furnished_state = furnished_state.strip()
+    
+    def __str__(self):
+        price = ("price =" + self.price + "\n")
+        location = ("location =" + self.location + "\n") 
+        bedroom_count = ("bedroom_count =" + self.bedroom_count + "\n") 
+        bathroom_count = ("bathroom_count =" + self.bathroom_count + "\n") 
+        furnished_state = ("furnished_state =" + self.furnished_state + "\n")
+        return (price+location+bedroom_count+bathroom_count+furnished_state)
 
 def get_chrome_web_driver(options):
     return webdriver.Chrome("./chromedriver", chrome_options=options)
@@ -67,26 +76,44 @@ def set_ignore_certificate_error(options):
 def set_browser_as_incognito(options):
     options.add_argument('--incognito')
 
+def get_properties(url):
+    ## scrap data from source
+    source=requests.get(url) ## this requests dublin endpoint
+    source_text=BeautifulSoup(source.text,'html')
+    ### find html tags with classes
+    properties=source_text.find_all("div",class_='search_result')
+    return properties
 
-# ## scrap data from source
-soure=requests.get(rentie_dublin)
-soup=BeautifulSoup(soure.text,'html')
-# ### find html tags with classes
-print(len(soup))
-ww2_contents=soup.find_all("div",class_='search_result')
-for i in ww2_contents:
-    ## property_info contains property characteristics like bedroom count, bathroom count, furnished state
-    property_info = i.find("div", class_='sresult_description').find('h3').text.split(',')
-    newProperty = Property(
-        location = (i.find("a").text),
-        price = (i.find("div", class_='sresult_description').find('h4').text),
-        bedroom_count = property_info[0],
-        bathroom_count = property_info[1],
-        furnished_state = property_info[2], 
-    )
-    break
+def create_property(html):
+    try:
+        property_info = html.find("div", class_='sresult_description').find('h3').text.split(',')
+        new_property = Property(
+            location = (html.find("a").text),
+            price = (html.find("div", class_='sresult_description').find('h4').text),
+            bedroom_count = property_info[0],
+            bathroom_count = property_info[1],
+            furnished_state = property_info[2], 
+        )
+        return new_property
+    except:
+        print("property didnt have enough features skipping")
 
+def create_dataset():
+    dataset = []
+    for index in range(len(urls)): 
+        properties=get_properties(urls[index])
+        for entry in properties:
+            ## property_info contains property characteristics like bedroom count, bathroom count, furnished state
+            new_property = create_property(entry) 
+            dataset.append(new_property)
+    return dataset    
 
+def print_dataset(dataset):
+    for property_obj in dataset:
+        print(property_obj)
+    print("Dataset contains : ", len(dataset), " properties") 
 
+dataset = create_dataset()
+print_dataset(dataset)
 
     
