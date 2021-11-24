@@ -102,12 +102,14 @@ def create_property(html, county_index):
         ## this removes the types of bedrooms the property has e.g '1 single, 2 double'
         property_info = ((property_info[:property_info.find("(")-1]) + (property_info[property_info.find(")")+1:])).split(',')
         furnished = 1 if ((property_info[2]) in "furnished") else 0
-        price = html.find("div", class_='sresult_description').find('h4').text.replace(" ", "").strip()[1:]
+        price = html.find("div", class_='sresult_description').find('h4').text.replace(" ", "").replace(",", "").strip()[1:]
+        price = price[:price.find("(")]
         if "weekly" in price or "week" in price:
-            price = price.strip("weekly")
+            price = int(price.strip("weekly"))
             price *= 4
         else : 
-            price = price.strip("monthly")
+            price = int(price.strip("monthly"))
+        price = str(price)
         new_property = Property(
             location = str(county_index),
             ## for price we need to remove whitespice with replace(), strip newline char with .strip() and remove euro sign with [1:]
