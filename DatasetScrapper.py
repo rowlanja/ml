@@ -37,14 +37,7 @@ urls.append("https://www.rent.ie/houses-to-let/renting_laois/")
 urls.append("https://www.rent.ie/houses-to-let/renting_leitrim/")
 urls.append("https://www.rent.ie/houses-to-let/renting_longford/")
 urls.append("https://www.rent.ie/houses-to-let/renting_louth/")
-urls.append("https://www.rent.ie/houses-to-let/renting_mayo/")
-urls.append("https://www.rent.ie/houses-to-let/renting_meath/")
-urls.append("https://www.rent.ie/houses-to-let/renting_monaghan/")
-urls.append("https://www.rent.ie/houses-to-let/renting_offaly/")
-urls.append("https://www.rent.ie/houses-to-let/renting_roscommon/")
 urls.append("https://www.rent.ie/houses-to-let/renting_limerick/")
-urls.append("https://www.rent.ie/houses-to-let/renting_longford/")
-urls.append("https://www.rent.ie/houses-to-let/renting_louth/")
 urls.append("https://www.rent.ie/houses-to-let/renting_mayo/")
 urls.append("https://www.rent.ie/houses-to-let/renting_meath/")
 urls.append("https://www.rent.ie/houses-to-let/renting_monaghan/")
@@ -102,7 +95,7 @@ def get_properties(url):
     properties=source_text.find_all("div",class_='search_result')
     return properties
 
-def create_property(html):
+def create_property(html, county_index):
     try:
         ## property_info contains property characteristics like bedroom count, bathroom count, furnished state
         property_info = html.find("div", class_='sresult_description').find('h3').text.strip()
@@ -116,7 +109,7 @@ def create_property(html):
         else : 
             price = price.strip("monthly")
         new_property = Property(
-            location = (html.find("a").text),
+            location = str(county_index),
             ## for price we need to remove whitespice with replace(), strip newline char with .strip() and remove euro sign with [1:]
             price = price,
             bedroom_count = property_info[0][:1],
@@ -136,7 +129,7 @@ def create_dataset():
     for index in range(len(urls)): 
         county_properties=get_properties(urls[index])
         for entry in county_properties:
-            new_property = create_property(entry) 
+            new_property = create_property(entry, index) 
             ## checking for empty object. Empty object may be returned when property doesnt conform to standard 
             if new_property != None:
                 dataset.append(new_property)
