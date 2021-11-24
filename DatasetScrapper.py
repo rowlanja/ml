@@ -108,13 +108,20 @@ def create_property(html):
         property_info = html.find("div", class_='sresult_description').find('h3').text.strip()
         ## this removes the types of bedrooms the property has e.g '1 single, 2 double'
         property_info = ((property_info[:property_info.find("(")-1]) + (property_info[property_info.find(")")+1:])).split(',')
+        furnished = 1 if ((property_info[2]) in "furnished") else 0
+        price = html.find("div", class_='sresult_description').find('h4').text.replace(" ", "").strip()[1:]
+        if "weekly" in price or "week" in price:
+            price = price.strip("weekly")
+            price *= 4
+        else : 
+            price = price.strip("monthly")
         new_property = Property(
             location = (html.find("a").text),
             ## for price we need to remove whitespice with replace(), strip newline char with .strip() and remove euro sign with [1:]
-            price = html.find("div", class_='sresult_description').find('h4').text.replace(" ", "").strip()[1:],
-            bedroom_count = property_info[0],
-            bathroom_count = property_info[1],
-            furnished_state = property_info[2], 
+            price = price,
+            bedroom_count = property_info[0][:1],
+            bathroom_count = property_info[1][:2],
+            furnished_state = str(furnished), 
         )
         return new_property
     except:
