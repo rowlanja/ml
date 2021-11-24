@@ -1,0 +1,519 @@
+location,price,bedroom_count,bathroom_count,furnished_state
+"1,350monthly","12 Bellgree House, Tyrrelstown, Dublin 15",2 bedrooms,2 bathrooms,furnished or unfurnished
+"1,554monthly","Ridgewood Grove, Ridgewood, Swords, Co. Dublin",1 bedroom,1 bathroom,furnished
+"1,200monthly","Clogher Road, Dolphin's Barn, Dublin 8",1 bedroom,1 bathroom,furnished
+"2,200monthly","58 Albert College Park, Glasnevin, Glasnevin, Dublin 11",3 bedrooms,1 bathroom,furnished
+"2,150monthly","Windsor Road, Ranelagh, Dublin 6",1 bedroom,1 bathroom,furnished
+"2,600monthly","308 Howth Road, Clontarf, Dublin 3",2 bedrooms,2 bathrooms,furnished
+"1,486monthly","Ushers Island, Dublin 8, Dublin 8",1 bedroom,1 bathroom,furnished
+"2,100monthly","Apartment 9, College Close, Dublin 2",2 bedrooms,1 bathroom,furnished
+"1,200monthly","Bachelors Walk, Dublin 1",1 bedroom,1 bathroom,furnished
+"1,600monthly","Flat 1, 16 Dufferin Avenue, South Circular Road, Dublin 8",1 bedroom,1 bathroom,furnished
+"7,000monthly","32 Abington, Malahide, Co. Dublin",7 bedrooms,6 bathrooms,furnished
+"1,850monthly","Barton Drive, Rathfarnham, Rathfarnham, Dublin 14",2 bedrooms,1 bathroom,furnished
+"3,800monthly","Carnagie Drive, Honeypark, Dun Laoghaire, Co. Dublin",5 bedrooms,4 bathrooms,unfurnished
+"1,700monthly","Apartment 203, The Links, Elmpark, Dublin 4",1 bedroom,1 bathroom,unfurnished
+"1,795monthly","Holywell, Swords, Co. Dublin",2 bedrooms,2 bathrooms,furnished
+"1,595monthly","Friarsland Crescent Apartments, Clonskeagh Road, Clonskeagh, Dublin 14",1 bedroom,1 bathroom,furnished
+"1,800monthly","9 Milton Hall, Dublin Road, Swords, Co. Dublin",2 bedrooms,1 bathroom,furnished
+"2,197monthly","Apartment 2, Ailesbury, Donnybrook Castle, Donnybrook, Dublin 4",2 bedrooms,2 bathrooms,furnished
+"1,995monthly","Saint Ignatius Road, Drumcondra, Dublin 7",2 bedrooms,1 bathroom,furnished
+"2,400monthly","Eastmoreland Court, Dublin 4",2 bedrooms,2 bathrooms,furnished
+695monthly(€793),"Flat 1 294 Limestone Road, Antrim Road, Belfast, Co. Antrim, BT15 3AR",1 bedroom,1 bathroom,furnished
+"1,150monthly(€1,312)","159 University St, Botanic, Belfast, Co. Antrim, BT7 1FY",2 bedrooms,1 bathroom,furnished
+"1,150monthly(€1,312)","Limestone Road, Antrim Road, Belfast, Co. Antrim, BT15 3AR",3 bedrooms,2 bathrooms,furnished
+"1,250monthly(€1,426)","Marcus Ward St, Belfast City Centre, Belfast, Co. Antrim",2 bedrooms,1 bathroom,furnished
+"1,200monthly","Newtown, Bagenalstown, Newtown, Co. Carlow",3 bedrooms,3 bathrooms,unfurnished
+"1,000monthly","Kevin Barry Road, Rathvilly, Co. Carlow",3 bedrooms,1 bathroom,furnished
+"1,000monthly","Coolmanagh Upper, Hacketstown, Co. Carlow",3 bedrooms,1 bathroom,furnished
+650monthly,"Penny Hill, Hacketstown, Co. Carlow",2 bedrooms,1 bathroom,unfurnished
+"1,500monthly","Nurney, Nurney, Co. Carlow",3 bedrooms,1 bathroom,furnished
+"1,200monthly","Barrow Lough, Leighlinbridge, Leighlinbridge, Co. Carlow",3 bedrooms,2 bathrooms,furnished
+"1,400monthly","Hillcrest, Carlow Town, Co. Carlow",2 bedrooms,2 bathrooms,furnished
+"1,000monthly","Well House, St. Mullins, Co. Carlow",2 bedrooms,1 bathroom,furnished
+"1,000monthly","Moyle Big, Kellistown, Co. Carlow",1 bedroom,1 bathroom,furnished
+850monthly,"33 Ardlow Manor, Mullagh, Co. Cavan",3 bedrooms,3 bathrooms,furnished
+"1,100monthly","The Drumlins, Virginia, Co. Cavan",3 bedrooms,2 bathrooms,furnished
+"1,200monthly","Riverrun, Loughdooley, Belturbet, Belturbet, Co. Cavan",3 bedrooms,3 bathrooms,furnished
+"1,150monthly","66 Blackwoods Avenue, The Gallop, Cavan, Co. Cavan",3 bedrooms,3 bathrooms,furnished
+800monthly,"6 Station Road, Kingscourt, Co. Cavan",2 bedrooms,1 bathroom,furnished
+"1,100monthly","Fergus Manor, Clon Road, Ennis, Co. Clare",3 bedrooms,2 bathrooms,furnished
+"1,000monthly","1a The Courtyard, Clarisford, Killaloe, Co. Clare",2 bedrooms,2 bathrooms,unfurnished
+"1,200monthly","85 Cluain Airne, Shannon, Co. Clare",3 bedrooms,2 bathrooms,furnished
+750monthly,"Lisnafaha, Kildysart, Ennis, Co. Clare",3 bedrooms,1 bathroom,furnished
+675monthly,"Glensheen, Gort Rd., Ennis, Co. Clare",1 bedroom,1 bathroom,furnished
+"1,100monthly","Wild Dolphin Lodge Apartments, Kilrush, Co. Clare",4 bedrooms,2 bathrooms,furnished
+"1,200monthly","Marina Walk, Killaloe, Co. Clare",4 bedrooms,4 bathrooms,furnished
+"21,000monthly","Commercial Unit, Darragh, Ennis, Co. Clare",0 bedrooms,2 bathrooms,furnished or unfurnish0 bedrooms
+"15,000monthly","Henry Street, Kilrush, Co. Clare",0 bedrooms,1 bathroom,furnished or unfurnish0 bedrooms
+"1,250monthly","7 Tobarkeel, Gort Road, Ennis, Co. Clare",4 bedrooms,4 bathrooms,furnished
+"1,000monthly","12 The Lakes Hill Road Killaloe, Killaloe, Co. Clare",2 bedrooms,1 bathroom,furnished
+900monthly,"Lakes Village, Killaloe, Co. Clare",2 bedrooms,1 bathroom,furnished
+700monthly,"Mill House, Ennis, Co. Clare",1 bedroom,1 bathroom,furnished
+"1,200monthly","Lakes Village, Killaloe, Co. Clare",3 bedrooms,2 bathrooms,furnished
+"1,500monthly","Drummeen, Ennis, Co. Clare",5 bedrooms,3 bathrooms,unfurnished
+950monthly,"Banner Court, Limerick Road, Ennis, Co. Clare",2 bedrooms,2 bathrooms,furnished
+"1,400monthly","Barnhill, Bushypark, Ennis, Co. Clare",3 bedrooms,3 bathrooms,furnished
+"1,300monthly","Moymore, Lahinch, Co. Clare",3 bedrooms,2 bathrooms,furnished
+"1,250monthly","Barntick, Clarecastle, Co. Clare",3 bedrooms,2 bathrooms,furnished
+"1,300monthly","Tradaree Court, Shannon, Co. Clare",4 bedrooms,2 bathrooms,furnished
+"1,345monthly","Clarkes Wood, Mount Oval Village, Rochestown, Co. Cork",1 bedroom,1 bathroom,furnished
+908monthly,"Blarney Street, Cork City, Co. Cork",1 bedroom,1 bathroom,furnished
+"1,250monthly","70 Carleton Village Apartments, Youghal, Co. Cork",2 bedrooms,2 bathrooms,furnished
+"1,200monthly","Ardagh East Rosscarbery Co. Cork, Rosscarbery, Co. Cork",4 bedrooms,2 bathrooms,furnished or unfurnished
+"1,400monthly","Estuary Court, Rochestown, Co. Cork",2 bedrooms,2 bathrooms,furnished
+600monthly,"Main St, Ballineen, Co. Cork",1 bedroom,1 bathroom,furnished
+900monthly,"1 Cathedral Street, Cork City, Co. Cork",1 bedroom,1 bathroom,furnished
+"1,400monthly","41 Ashbrook, Carrigtwohill, Co. Cork",2 bedrooms,1 bathroom,furnished
+"1,300monthly","Tivoli Woods, Tivoli, Co. Cork",2 bedrooms,2 bathrooms,furnished
+"1,557monthly","Grange Vale, Douglas, Co. Cork",3 bedrooms,1 bathroom,unfurnished
+750monthly,"Skevanish Cottage, Skevanish, Bandon, Co. Cork",2 bedrooms,1 bathroom,furnished
+"1,500monthly","51 The Crescent Apartments, Old Fort Road, P31 A278, Ballincollig, Co. Cork",2 bedrooms,2 bathrooms,furnished
+780monthly,"Apt 6, 7 West Beach, Cobh, Co. Cork",1 bedroom,1 bathroom,furnished
+"2,072monthly","48 Wilton Court, Wilton, Wilton, Co. Cork",4 bedrooms,2 bathrooms,furnished
+"1,600monthly","7 Cois Cuain, Whitegate, Co. Cork",4 bedrooms,3 bathrooms,unfurnished
+"1,599monthly","15 Hardwick Street, Cork City, Co. Cork",1 bedroom,1 bathroom,furnished
+750monthly,"13 Cork Street, Macroom, Co. Cork",2 bedrooms,1 bathroom,furnished
+"1,400monthly","18 The Willows, Fota Rock, Carrigtwohill, Co. Cork",3 bedrooms,3 bathrooms,unfurnished
+"1,400monthly","10 Clogheen Holiday Village, Clogheen, Clonakilty, Co. Cork",6 bedrooms,3 bathrooms,furnished
+900monthly,"26 Cluain Ard, Killyclug, Letterkenny, Co. Donegal",3 bedrooms,3 bathrooms,furnished
+850monthly,"45 The Green, Ballymacool, Letterkenny, Co. Donegal",3 bedrooms,2 bathrooms,furnished
+650monthly,"Apartment 33, Riverside View, Letterkenny, Co. Donegal",2 bedrooms,1 bathroom,furnished
+900monthly,"90 The Green, Thornberry, Letterkenny, Co. Donegal",3 bedrooms,2 bathrooms,furnished
+780monthly,"Convoy, Co. Donegal",2 bedrooms,1 bathroom,furnished
+"1,250monthly","Mountain Top Area, Letterkenny, Co. Donegal",4 bedrooms,3 bathrooms,furnished
+"1,200monthly","27 Hawthorn Heights, Letterkenny, Co. Donegal",4 bedrooms,2 bathrooms,furnished
+150weekly,"Castle Street, Ballyshannon, Co. Donegal",1 bedroom,1 bathroom,furnished
+"1,200monthly","Moness, Burt, Co. Donegal",5 bedrooms,4 bathrooms,unfurnished
+900monthly,"Apartment 11, Court Manor House, Letterkenny, Co. Donegal",2 bedrooms,1 bathroom,furnished
+625monthly,"6a Linwood, Letterkenny, Co. Donegal",1 bedroom,1 bathroom,furnished
+520monthly,"4 Fullerton's Apartments, Main Street, St. Johnston, Co. Donegal",1 bedroom,1 bathroom,furnished
+700monthly,"The Maples, Lismonaghan, Letterkenny, Co. Donegal",1 bedroom,1 bathroom,furnished
+650monthly,"Main Street, Ballybofey, Co. Donegal",1 bedroom,1 bathroom,furnished
+750monthly,"1 The Sanctuary, Muff, Co. Donegal",3 bedrooms,1 bathroom,furnished
+"1,000monthly","8 Rough Park,woodlands,letterkenny,co Donegal, Letterkenny, Co. Donegal",4 bedrooms,3 bathrooms,unfurnished
+850monthly,"10 Carolina Park, Letterkenny, Co. Donegal",4 bedrooms,2 bathrooms,unfurnished
+950monthly,"18 Oakfield Crescent, Buncrana, Co. Donegal",3 bedrooms,2 bathrooms,furnished
+900monthly,"12 Chestnut Grove, Glencar, Letterkenny, Co. Donegal",3 bedrooms,3 bathrooms,furnished
+850monthly,"1 Glencar Irish, Letterkenny, Co. Donegal",3 bedrooms,2 bathrooms,furnished
+"1,050monthly","Henry Street, Galway City, Co. Galway",1 bedroom,1 bathroom,furnished
+"1,900monthly","Apartment 225, Gort Na Coiribe, Terryland, Co. Galway",2 bedrooms,2 bathrooms,furnished
+"1,450monthly","58 Baily Point, Salthill, Co. Galway",2 bedrooms,2 bathrooms,furnished or unfurnish2 bedrooms
+"1,400monthly","Manor Court, Knocknacarra, Co. Galway",2 bedrooms,1 bathroom,furnished
+"1,500monthly","Apartment 12, An TriantÃ¡n, Headford Road, Co. Galway",2 bedrooms,2 bathrooms,furnished
+550monthly,"Newcastle, Athenry, Co. Galway",1 bedroom,1 bathroom,furnished
+975monthly,"Dunkellin, Kilcolgan, Co. Galway",2 bedrooms,1 bathroom,furnished
+"1,200monthly","Main Street, Shrule, Co. Galway",6 bedrooms,3 bathrooms,furnished
+"1,500monthly","Castlelawn Heights, Headford Road. Galway, Galway City, Co. Galway",3 bedrooms,2 bathrooms,furnished
+"1,400monthly","Greenfields Road, Newcastle, Co. Galway",1 bedroom,1 bathroom,furnished
+"1,975monthly","Arus Guaire, Foster Court, Galway City, Co. Galway",3 bedrooms,2 bathrooms,furnished
+950monthly,"Grange, Corrandulla. Co. Galway, Ireland, Shanbally, Co. Galway",2 bedrooms,1 bathroom,furnished
+"1,300monthly","5 The Lodges, Shannon Oaks, Portumna, Co. Galway",5 bedrooms,3 bathrooms,furnished
+"1,400monthly","Newcastle Road, Newcastle, Co. Galway",2 bedrooms,2 bathrooms,furnished
+"1,750monthly","Apartment 1, 1 Buttermilk Walk, Galway City, Co. Galway",3 bedrooms,1 bathroom,furnished
+"1,450monthly","An Baile Nua, Barna, Co. Galway",2 bedrooms,1 bathroom,furnished
+"1,690monthly","Apartment 4, Earlswell Court, Galway City, Co. Galway",2 bedrooms,1 bathroom,furnished
+"1,800monthly","Tirellan Heights, Tirellan, Co. Galway",3 bedrooms,1 bathroom,furnished
+"1,500monthly","H54ty32, Bullaun, Co. Galway",4 bedrooms,3 bathrooms,furnished
+195weekly,"Claregalway, Lackagh, Co. Galway",1 bedroom,1 bathroom,furnished
+850monthly,"Ballinvoher House, Ballinvoher, Ardfert, Co. Kerry",3 bedrooms,1 bathroom,furnished
+850monthly,"Ballymacprior, Killorglin, Co. Kerry",3 bedrooms,2 bathrooms,furnished
+350weekly,"Redbrick House, Langford Street, Killorglin, Co. Kerry",6 bedrooms,5 bathrooms,furnished
+850monthly,"Rahela, Ballyduff, Co. Kerry",3 bedrooms,2 bathrooms,furnished
+"1,000monthly","Rossdohan, Sneem, Co. Kerry",3 bedrooms,2 bathrooms,furnished
+600monthly,"East Apartment, Palm Grove, Dromnevane, Kenmare, Co. Kerry",2 bedrooms,1 bathroom,furnished
+600monthly,"24 Pembroke Street, Tralee, Co. Kerry",1 bedroom,1 bathroom,furnished
+700monthly,"Block D Wild Atlantic Apts Cork Rd, Killarney, Co. Kerry",1 bedroom,1 bathroom,furnished
+"2,000monthly","Castlecove Village, Caherdaniel, Castlecove, Co. Kerry",5 bedrooms,7 bathrooms,unfurnished
+"1,400monthly","21 Forge Park, Tralee, Co. Kerry",5 bedrooms,4 bathrooms,furnished
+850monthly,"Ballyduff, Knocknagoshel, Co. Kerry",3 bedrooms,2 bathrooms,furnished
+950monthly,"21a Laurel Court, Oakpark, Tralee, Co. Kerry",2 bedrooms,1 bathroom,furnished
+"1,400monthly","29 Hawthorn Avenue, Killarney, Co. Kerry",3 bedrooms,3 bathrooms,unfurnished
+600monthly,"East, Palmgrove Lodge, Kenmare, Co. Kerry",2 bedrooms,2 bathrooms,furnished
+"1,000monthly","Fels Point Dan Spring Road Tralee, Tralee, Co. Kerry",2 bedrooms,1 bathroom,furnished
+"1,100monthly","Knockataggle Beg, Kilcummin, Killarney, Co. Kerry",4 bedrooms,3 bathrooms,furnished
+"1,100monthly","Loreto Road, Killarney, Co. Kerry",2 bedrooms,2 bathrooms,furnished
+"1,100monthly","14 The Tennis Village, Killeen, Tralee, Co. Kerry",3 bedrooms,3 bathrooms,furnished
+"1,500monthly","Tralee Rd, Killarney, Co. Kerry",5 bedrooms,6 bathrooms,furnished
+"3,000monthly","Lambs Head, Caherdaniel, Co. Kerry",4 bedrooms,4 bathrooms,furnished
+"3,000monthly","Osberstown, Naas, Co. Kildare",6 bedrooms,3 bathrooms,furnished or unfurnished
+600monthly,"Flat 2 Carlowgate, Castledermot, Castledermot, Co. Kildare",1 bedroom,1 bathroom,furnished
+"2,600monthly","Ladycastle, Straffan, Co. Kildare",3 bedrooms,3 bathrooms,furnished
+150weekly,"W23a2k4, Leixlip, Co. Kildare",1 bedroom,1 bathroom,furnished
+"1,250monthly","49b Kingsgrove, Athy, Co. Kildare",3 bedrooms,1 bathroom,furnished
+"2,000monthly","Rowan Terrace, Newbridge, Co. Kildare",4 bedrooms,4 bathrooms,unfurnished
+"2,500monthly","11 Castle Village Green, Celbridge, Co. Kildare",4 bedrooms,2 bathrooms,furnish4 bedrooms
+"1,550monthly","1 Straffan Lawn, Straffan Wood, Maynooth, Co. Kildare",2 bedrooms,1 bathroom,furnish2 bedrooms
+"1,500monthly","Apartment 10, Block B, Rye Abbey, Connaught Street, Kilcock, Co. Kildare",2 bedrooms,1 bathroom,furnished
+"1,450monthly","42 Louisa Park, Leixlip, Co. Kildare",2 bedrooms,2 bathrooms,furnished
+592monthly,"Apt 1 Dreenane Lodge Derrinturn Carbury, Carbury, Co. Kildare",1 bedroom,1 bathroom,furnished
+"1,500monthly","62 Hillview Heights, Clane, Co. Kildare",3 bedrooms,1 bathroom,furnished
+700monthly,"Bert House Stud, Athy, Co. Kildare",1 bedroom,1 bathroom,furnished
+"1,990monthly","15 Willow Park Road, Primrose Gate, Celbridge, Co. Kildare",3 bedrooms,3 bathrooms,unfurnished
+"1,400monthly","Mill House, Levitstown, Athy, Maganey, Co. Kildare",1 bedroom,1 bathroom,furnished
+"1,000monthly","Willow Grove, Clane Rd, Sallins, Co. Kildare",1 bedroom,1 bathroom,furnished
+"2,525monthly","Beech Hill, Tipper South, Naas, Co. Kildare",4 bedrooms,4 bathrooms,furnish4 bedrooms
+"2,200monthly","4 The Cottages, Rahandoon, Sallins, Co. Kildare",4 bedrooms,3 bathrooms,furnished
+"1,600monthly","Apartment 7, Primrose Forge, Celbridge, Co. Kildare",2 bedrooms,1 bathroom,furnished
+"1,300monthly","142 Louisa Park, Station Road, Leixlip, Co. Kildare",1 bedroom,1 bathroom,furnished
+"1,600monthly","2 City Wall, James Street, Kilkenny, Co. Kilkenny",3 bedrooms,1 bathroom,furnished
+"1,350monthly","Larchfield Court, Kilkenny, Co. Kilkenny",3 bedrooms,3 bathrooms,furnished
+950monthly,"Carrigeen, Johnswell, Johnswell , Co. Kilkenny",2 bedrooms,1 bathroom,furnished
+"1,250monthly","Two Bedroom Ash 5 Kilkenny Holiday Homes Ullard, Graiguenamanagh, Co. Kilkenny",2 bedrooms,1 bathroom,furnished
+800monthly,"Treanaree, Co. Kilkenny Via Waterford X91 N6p0, Slieverue, Co. Kilkenny",1 bedroom,1 bathroom,furnished
+875monthly,"3 Clonmel Road, Callan, Co. Kilkenny",2 bedrooms,1 bathroom,furnished
+"1,350monthly","66 Hawthorn Way, Esker Hills, Portlaoise, Co. Laois",3 bedrooms,3 bathrooms,furnished
+"1,100monthly","Cashel, Ballyroan, Co. Laois",4 bedrooms,2 bathrooms,unfurnished
+"1,400monthly","84 Ashley Gardens, Portlaoise, Co. Laois",3 bedrooms,3 bathrooms,furnished
+"1,000monthly","No 1 Townhouse OÃ¢Â€Âmoore St., Mountmellick, Co. Laois",3 bedrooms,3 bathrooms,furnished
+800monthly,"Parnell St, Mountmellick, Co. Laois",3 bedrooms,1 bathroom,furnished
+950monthly,"Rose Cottage, Ballaghmore, Co. Laois",2 bedrooms,1 bathroom,furnished
+900monthly,"24 DroimnÃ­n, Stradbally, Co. Laois",2 bedrooms,1 bathroom,furnished
+900monthly,"23 DroimnÃ­n, Stradbally, Co. Laois",2 bedrooms,1 bathroom,furnished
+"1,100monthly","The Pump House Aghaboe Grange, Ballacolla, Co. Laois",2 bedrooms,2 bathrooms,furnished
+"1,000monthly","The Old Dairy Aghaboe Grange, Ballacolla, Co. Laois",2 bedrooms,2 bathrooms,furnished
+"1,050monthly","Ballaghmore, Borris-in-Ossory, Co. Laois",2 bedrooms,1 bathroom,furnished
+850monthly,"Carrick View, Carrick-on-Shannon, Co. Leitrim",2 bedrooms,2 bathrooms,furnished
+950monthly,"34 Shannon Grove, Carrick-on-Shannon, Co. Leitrim",3 bedrooms,4 bathrooms,furnished
+"1,000monthly","An Crannog, Keshcarrigan, Co. Leitrim",4 bedrooms,1 bathroom,furnished
+900monthly,"Apartment 41, The Waterfront, Leitrim, Co. Leitrim",2 bedrooms,2 bathrooms,furnished
+825monthly,"Apartment 8, Hyde Place, Mohill, Co. Leitrim",3 bedrooms,2 bathrooms,furnished
+725monthly,"Apartment 7, Hyde Place, Mohill, Co. Leitrim",2 bedrooms,1 bathroom,furnished
+550monthly,"Dillon Court, Manorhamilton, Co. Leitrim",2 bedrooms,1 bathroom,furnished
+600monthly,"Apt 1, Golf Links Road, Ballinamore, Co. Leitrim",2 bedrooms,1 bathroom,furnished
+900monthly,"Apartment 41, Leitrim Marina, Leitrim, Co. Leitrim",2 bedrooms,2 bathrooms,furnished
+750monthly,"Shannon Cove, Dromod, Co. Leitrim",2 bedrooms,2 bathrooms,furnished
+155weekly,"No 2 Market Square Court, Longford Town, Co. Longford",1 bedroom,1 bathroom,furnished
+500monthly,"Barrack Street, Granard, Co. Longford",1 bedroom,1 bathroom,furnished
+700monthly,"Apartment 2, Colum Hall, Woodville Place, Longford Town, Co. Longford",2 bedrooms,2 bathrooms,furnished
+850monthly,"Dublin Street, Longford Town, Co. Longford",2 bedrooms,1 bathroom,furnished
+600monthly,"Main Street, Granard, Co. Longford",1 bedroom,1 bathroom,furnished
+"1,200monthly","5 Sycamore Drive, Prospect Wood, Longford Town, Co. Longford",4 bedrooms,2 bathrooms,furnished or unfurnished
+775monthly,"Corlea, Drumlish, Co. Longford",2 bedrooms,1 bathroom,furnished or unfurnished
+900monthly,"Apartment 55, Harbour Point, Longford Town, Co. Longford",2 bedrooms,2 bathrooms,furnished
+"1,200monthly","Harbour Road Tarmon Harbour Tarmonbarry Village, Tarmonbarry, Co. Longford",4 bedrooms,4 bathrooms,furnished
+"1,150monthly","St Albans, Battery Rd, Longford, Co. Longford",2 bedrooms,2 bathrooms,furnished
+850monthly,"Abbesshrule, Abbeyshrule, Co. Longford",3 bedrooms,1 bathroom,furnished
+"1,400monthly","157 Castle Ross, Castle Town Road, Dundalk, Co. Louth",3 bedrooms,1 bathroom,furnished
+"1,500monthly","Avourwen, Drogheda, Co. Louth",2 bedrooms,2 bathrooms,furnished
+"1,000monthly","Apartment 17 Nicholas Court, Nicholas Street, Dundalk, Co. Louth",2 bedrooms,1 bathroom,furnished
+"1,230monthly","Adelphi Boulevard, Park Avenue, Dundalk, Dundalk, Co. Louth",2 bedrooms,3 bathrooms,furnished
+"1,350monthly","5 Saint Peters Court, Drogheda, Co. Louth",1 bedroom,1 bathroom,furnished
+"1,700monthly","2, Barley Cove, Wheaton Hall, Dublin Road, Drogheda, Co. Louth",3 bedrooms,2 bathrooms,furnished
+"1,300monthly","Dublin Road, Dundalk, Co. Louth",3 bedrooms,1 bathroom,furnished
+"1,400monthly","13a Mary Street North, Dundalk, Co. Louth",4 bedrooms,4 bathrooms,furnished
+800monthly,"Bridge Street. Ardee, Ardee, Co. Louth",1 bedroom,1 bathroom,furnished
+"1,350monthly","Dyer Street Drogheda, Drogheda, Co. Louth",2 bedrooms,1 bathroom,furnished
+"1,122monthly","Hackballscross, Dundalk, Co. Louth",3 bedrooms,2 bathrooms,furnished or unfurnished
+"1,800monthly","Ard Laois, Blackrock, Co. Louth",4 bedrooms,3 bathrooms,unfurnished
+375weekly,"End Of Terrace, Ladywell Square, Dundalk, Co. Louth",3 bedrooms,1 bathroom,furnished
+"1,500monthly","91 Marsh Road, Drogheda, Co. Louth",3 bedrooms,2 bathrooms,furnished or unfurnished
+"1,150monthly","West Street, Drogheda, Co. Louth",1 bedroom,1 bathroom,furnished
+"1,200monthly","3 Glenhall, The Loakers, Blackrock, Co. Louth",2 bedrooms,1 bathroom,furnished
+"1,500monthly","15 Distillery Mews, Distillery Lane, Dundalk, Co. Louth",3 bedrooms,1 bathroom,furnished
+"1,500monthly","7 Ard Shee, Blackrock, Co. Louth",3 bedrooms,3 bathrooms,furnished
+"1,255monthly","1 Sutton House, Seatown Place, Dundalk, Co. Louth",2 bedrooms,1 bathroom,furnish2 bedrooms
+"1,500monthly","Kilsallagh, Westport, Co. Mayo",5 bedrooms,3 bathrooms,furnished
+"1,800monthly","Rosebrook Drummindoo Westport, Westport, Co. Mayo",4 bedrooms,3 bathrooms,furnished
+"1,200monthly","22 Springdale Claremorris, Claremorris, Co. Mayo",4 bedrooms,3 bathrooms,furnished
+700monthly,"Apartment 2, Millhouse, Ballina, Co. Mayo",2 bedrooms,1 bathroom,furnished
+950monthly,"Newport Road, Castlebar, Co. Mayo",2 bedrooms,1 bathroom,furnished
+"1,000monthly","Apartment 89, Block D, Bruach Na Habhainn, Westport, Co. Mayo",2 bedrooms,2 bathrooms,furnished
+850monthly,"24 Culgara, Teeling Street, Ballina, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,000monthly","Levallinree, Parke, Park, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,200monthly","Mochara, Shrule, Headford, Glencorrib, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,000monthly","Lecanvey, Murrisk, Westport, Co. Mayo",4 bedrooms,2 bathrooms,furnished
+140weekly,"Carrabawn, Aghagower, Co. Mayo",1 bedroom,1 bathroom,furnished
+"1,100monthly","Aiden Street, Kiltimagh, Co. Mayo",3 bedrooms,3 bathrooms,furnished
+"1,350monthly","Meadow Park, Castlebar, Co. Mayo",4 bedrooms,3 bathrooms,furnished
+"1,350monthly","28 The Moorings, Quay Road, Ballina, Co. Mayo",5 bedrooms,3 bathrooms,unfurnished
+900monthly,"Loughloon, Westport, Co. Mayo",2 bedrooms,2 bathrooms,furnished
+"1,150monthly","1 Gallows Hill, Castlebar, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+700monthly,"45 Slieve Na GrÃ©ine, Foxford, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,075monthly","Cloonacannana, Swinford, Co. Mayo",4 bedrooms,2 bathrooms,furnished
+"1,200monthly","13 Knockaphunta Park, Westport Road, Castlebar, Co. Mayo",3 bedrooms,3 bathrooms,furnished
+950monthly,"Ridgepool Village, Ballina, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,485monthly","52 Eden Court, Dunshaughlin, Co. Meath",4 bedrooms,3 bathrooms,furnished or unfurnished
+"1,300monthly","Castleglen, Donacarney, Co. Meath",2 bedrooms,2 bathrooms,furnished
+"1,450monthly","64 Tower View, Trim, Co. Meath",4 bedrooms,1 bathroom,furnish4 bedrooms
+"1,100monthly","56 Cloran Court, Athboy, Co. Meath",3 bedrooms,3 bathrooms,furnished
+"1,700monthly","Ledwidge Hall, Slane, Co. Meath",4 bedrooms,2 bathrooms,furnished
+"1,100monthly","43 Newman\'s Mill, Athboy, Co. Meath",3 bedrooms,3 bathrooms,furnished
+850monthly,"Apartment 2, 1 The Green, Summerhill, Co. Meath",1 bedroom,1 bathroom,furnished
+950monthly,"8 Newman\'s Mill, Athboy, Co. Meath",2 bedrooms,1 bathroom,furnished or unfurnished
+"1,600monthly","20a Headfort Park, Kells, Co. Meath",4 bedrooms,3 bathrooms,furnished or unfurnished
+"1,850monthly","Apartment 39, Ard Cluain, Clonee, Co. Meath",2 bedrooms,2 bathrooms,furnished
+"2,300monthly","Bailis Manor, Athlumney, Navan, Co. Meath",5 bedrooms,3 bathrooms,furnished
+"1,450monthly","1 Segrave Square, Ashbourne, Co. Meath",2 bedrooms,2 bathrooms,furnished
+"2,060monthly","Stonebridge, Ratoath, Co. Meath",3 bedrooms,3 bathrooms,furnished
+"1,600monthly","24 Loughcrew Hills, Oldcastle, Co. Meath",4 bedrooms,3 bathrooms,unfurnished
+"1,550monthly","1 Saint Patrick`s Square, Laytown, Co. Meath",4 bedrooms,2 bathrooms,furnish4 bedrooms
+"1,190monthly","Flat 4, 3 Navan Gate Street, Trim, Co. Meath",2 bedrooms,1 bathroom,furnished
+"1,250monthly","Porterstown Lane, Ratoath, Co. Meath",1 bedroom,1 bathroom,furnished
+"1,777monthly","61 Moulden Bridge, Ratoath, Co. Meath",4 bedrooms,3 bathrooms,furnished
+"2,000monthly","12 Maple Close Johnstown Wood Navan, Johnstown, Co. Meath",3 bedrooms,2 bathrooms,furnished
+550monthly,"Dublin Street, Monaghan, Co. Monaghan",1 bedroom,1 bathroom,furnished
+650monthly,"Dublin Street, Monaghan, Co. Monaghan",2 bedrooms,1 bathroom,furnished
+"1,200monthly","Drumleek North, Castleblayney, Castleblayney, Co. Monaghan",3 bedrooms,2 bathrooms,furnished
+895monthly,"Devlin, Castleblayney, Co. Monaghan",3 bedrooms,1 bathroom,furnished
+600monthly,"1 Braeside Apartments, Carrickaderry, Clontibret, Co. Monaghan",1 bedroom,1 bathroom,furnished
+650monthly,"Lower Main Street, Ballybay, Co. Monaghan",1 bedroom,1 bathroom,furnished
+"1,200monthly","63 Killyconnigan, Monaghan, Co. Monaghan",4 bedrooms,2 bathrooms,unfurnished
+"1,000monthly","Drumganny Apartments, Drumganny, Carrickmacross, Co. Monaghan",2 bedrooms,1 bathroom,furnished
+900monthly,"18 Cappaneale, Birr, Co. Offaly",2 bedrooms,1 bathroom,furnished
+"1,100monthly","The Four Winds, Fahy, Rhode, Co. Offaly",4 bedrooms,2 bathrooms,furnished
+800monthly,"Main Street, Geashill, Co. Offaly",2 bedrooms,1 bathroom,furnished or unfurnished
+"1,200monthly","Edgewater, Convent Road, Tullamore, Co. Offaly",2 bedrooms,1 bathroom,furnished
+"1,700monthly","Behan House, Arden Road, Tullamore, Co. Offaly",2 bedrooms,1 bathroom,furnished
+190weekly,"1, Cumberland Tce., Emmet Street, Birr, Co. Offaly",1 bedroom,1 bathroom,furnished
+"1,300monthly","Droim Liath, Tullamore, Co. Offaly",3 bedrooms,3 bathrooms,furnished
+"1,350monthly","Carraig Cluain, Tullamore, Co. Offaly",4 bedrooms,3 bathrooms,furnished
+800monthly,"Kylebeg, Banagher, Co. Offaly",2 bedrooms,1 bathroom,furnished
+850monthly,"Sharavogue, Birr, Co. Offaly",3 bedrooms,2 bathrooms,furnished
+320weekly,"Parkhouse, Portarlington, Co. Offaly",3 bedrooms,2 bathrooms,furnished or unfurnished
+"1,600monthly","Aughamore Clara, Tullamore, Co. Offaly",4 bedrooms,2 bathrooms,furnished
+600monthly,"12 Limefield Clonminch, Tullamore, Co. Offaly",4 bedrooms,4 bathrooms,furnished
+800monthly,"Breaghmore, Clareen, Birr, Co. Offaly",3 bedrooms,2 bathrooms,furnished
+"1,400monthly","60 CorrÃ¡n Riada, Monksland, Athlone, Co. Roscommon",4 bedrooms,3 bathrooms,furnished or unfurnished
+200weekly,"Riverwalk, Castlerea, Co. Roscommon",2 bedrooms,2 bathrooms,furnished
+750monthly,"Rooskey, Co. Roscommon",3 bedrooms,2 bathrooms,furnish3 bedrooms
+850monthly,"20 Curlew View, Boyle, Co. Roscommon",3 bedrooms,1 bathroom,furnished
+"1,100monthly","Oakdale 36, Athlone, Co. Roscommon",2 bedrooms,1 bathroom,furnished
+750monthly,"64 Watervale, Rooskey, Co. Roscommon",3 bedrooms,2 bathrooms,unfurnished
+"1,100monthly","Apartment 1 Inver Geal, Carrick-on-Shannon, Co. Roscommon",3 bedrooms,2 bathrooms,furnished
+800monthly,"Castlecourt, Ballaghaderreen, Co. Roscommon",3 bedrooms,2 bathrooms,furnished or unfurnished
+850monthly,"15 Brooklawn, Ballaghaderreen, Co. Roscommon",3 bedrooms,3 bathrooms,furnished or unfurnished
+"1,050monthly","Shroankeeragh, Carrick-on-Shannon, Co. Roscommon",4 bedrooms,1 bathroom,furnished
+"1,200monthly","Curraghmore, Kiltoom, Athlone, Co. Roscommon",3 bedrooms,1 bathroom,furnished
+900monthly,"21 Barrys Avenue, Tarmonbarry, Co. Roscommon",4 bedrooms,2 bathrooms,furnished
+"1,500monthly","Alandale Orchard, Ashbourne Avenue, South Circular Road, Co. Limerick",2 bedrooms,2 bathrooms,furnished
+"1,500monthly","Oâ€callaghan Strand, Limerick City, Co. Limerick",2 bedrooms,1 bathroom,furnished
+"1,800monthly","65 Taracrea, Kilteragh, Dooradoyle, Co. Limerick",3 bedrooms,3 bathrooms,furnished
+"2,200monthly","Fortmary Park, North Circular Road, Co. Limerick",4 bedrooms,3 bathrooms,unfurnished
+"1,050monthly","Dublin Road, Castletroy, Co. Limerick",1 bedroom,1 bathroom,furnished
+700monthly,"Main Street, Shanagolden, Co. Limerick",1 bedroom,1 bathroom,furnished
+"1,100monthly","Cois Rioga, Caherconlish, Co. Limerick",3 bedrooms,4 bathrooms,furnished
+"1,400monthly","Riverpoint, Bishops Quay, Limerick City, Co. Limerick",2 bedrooms,2 bathrooms,furnished
+"1,800monthly","Cluain Dubh, Father Russell Road, Raheen, Co. Limerick",3 bedrooms,3 bathrooms,furnished
+"1,800monthly","The Village, Adare Manor, Adare, Co. Limerick",4 bedrooms,3 bathrooms,unfurnished
+"1,400monthly","Apartment 16, Ashbrook Crescent, Ennis Road, Co. Limerick",2 bedrooms,2 bathrooms,unfurnished
+"1,500monthly","Castlegrange, Raheen, Co. Limerick",2 bedrooms,1 bathroom,furnished
+"1,500monthly","The Park Village, Castletroy, Co. Limerick",2 bedrooms,2 bathrooms,furnished
+650monthly,"Sarsfield Street, Kilmallock, Co. Limerick",1 bedroom,1 bathroom,unfurnished
+"1,300monthly","52 Brackvoan, Bruff, Co. Limerick",4 bedrooms,3 bathrooms,furnished
+"4,500monthly","Shelbourne Square, North Circular Road, Co. Limeri, Ennis Road, Co. Limerick",4 bedrooms,5 bathrooms,furnished
+"2,000monthly","Lissanálta, Dooradoyle, Co. Limerick",3 bedrooms,3 bathrooms,furnished
+155weekly,"No 2 Market Square Court, Longford Town, Co. Longford",1 bedroom,1 bathroom,furnished
+500monthly,"Barrack Street, Granard, Co. Longford",1 bedroom,1 bathroom,furnished
+700monthly,"Apartment 2, Colum Hall, Woodville Place, Longford Town, Co. Longford",2 bedrooms,2 bathrooms,furnished
+850monthly,"Dublin Street, Longford Town, Co. Longford",2 bedrooms,1 bathroom,furnished
+600monthly,"Main Street, Granard, Co. Longford",1 bedroom,1 bathroom,furnished
+"1,200monthly","5 Sycamore Drive, Prospect Wood, Longford Town, Co. Longford",4 bedrooms,2 bathrooms,furnished or unfurnished
+775monthly,"Corlea, Drumlish, Co. Longford",2 bedrooms,1 bathroom,furnished or unfurnished
+900monthly,"Apartment 55, Harbour Point, Longford Town, Co. Longford",2 bedrooms,2 bathrooms,furnished
+"1,200monthly","Harbour Road Tarmon Harbour Tarmonbarry Village, Tarmonbarry, Co. Longford",4 bedrooms,4 bathrooms,furnished
+"1,150monthly","St Albans, Battery Rd, Longford, Co. Longford",2 bedrooms,2 bathrooms,furnished
+850monthly,"Abbesshrule, Abbeyshrule, Co. Longford",3 bedrooms,1 bathroom,furnished
+"1,400monthly","157 Castle Ross, Castle Town Road, Dundalk, Co. Louth",3 bedrooms,1 bathroom,furnished
+"1,500monthly","Avourwen, Drogheda, Co. Louth",2 bedrooms,2 bathrooms,furnished
+"1,000monthly","Apartment 17 Nicholas Court, Nicholas Street, Dundalk, Co. Louth",2 bedrooms,1 bathroom,furnished
+"1,230monthly","Adelphi Boulevard, Park Avenue, Dundalk, Dundalk, Co. Louth",2 bedrooms,3 bathrooms,furnished
+"1,350monthly","5 Saint Peters Court, Drogheda, Co. Louth",1 bedroom,1 bathroom,furnished
+"1,700monthly","2, Barley Cove, Wheaton Hall, Dublin Road, Drogheda, Co. Louth",3 bedrooms,2 bathrooms,furnished
+"1,300monthly","Dublin Road, Dundalk, Co. Louth",3 bedrooms,1 bathroom,furnished
+"1,400monthly","13a Mary Street North, Dundalk, Co. Louth",4 bedrooms,4 bathrooms,furnished
+800monthly,"Bridge Street. Ardee, Ardee, Co. Louth",1 bedroom,1 bathroom,furnished
+"1,350monthly","Dyer Street Drogheda, Drogheda, Co. Louth",2 bedrooms,1 bathroom,furnished
+"1,122monthly","Hackballscross, Dundalk, Co. Louth",3 bedrooms,2 bathrooms,furnished or unfurnished
+"1,800monthly","Ard Laois, Blackrock, Co. Louth",4 bedrooms,3 bathrooms,unfurnished
+375weekly,"End Of Terrace, Ladywell Square, Dundalk, Co. Louth",3 bedrooms,1 bathroom,furnished
+"1,500monthly","91 Marsh Road, Drogheda, Co. Louth",3 bedrooms,2 bathrooms,furnished or unfurnished
+"1,150monthly","West Street, Drogheda, Co. Louth",1 bedroom,1 bathroom,furnished
+"1,200monthly","3 Glenhall, The Loakers, Blackrock, Co. Louth",2 bedrooms,1 bathroom,furnished
+"1,500monthly","15 Distillery Mews, Distillery Lane, Dundalk, Co. Louth",3 bedrooms,1 bathroom,furnished
+"1,500monthly","7 Ard Shee, Blackrock, Co. Louth",3 bedrooms,3 bathrooms,furnished
+"1,255monthly","1 Sutton House, Seatown Place, Dundalk, Co. Louth",2 bedrooms,1 bathroom,furnish2 bedrooms
+"1,500monthly","Kilsallagh, Westport, Co. Mayo",5 bedrooms,3 bathrooms,furnished
+"1,800monthly","Rosebrook Drummindoo Westport, Westport, Co. Mayo",4 bedrooms,3 bathrooms,furnished
+"1,200monthly","22 Springdale Claremorris, Claremorris, Co. Mayo",4 bedrooms,3 bathrooms,furnished
+700monthly,"Apartment 2, Millhouse, Ballina, Co. Mayo",2 bedrooms,1 bathroom,furnished
+950monthly,"Newport Road, Castlebar, Co. Mayo",2 bedrooms,1 bathroom,furnished
+"1,000monthly","Apartment 89, Block D, Bruach Na Habhainn, Westport, Co. Mayo",2 bedrooms,2 bathrooms,furnished
+850monthly,"24 Culgara, Teeling Street, Ballina, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,000monthly","Levallinree, Parke, Park, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,200monthly","Mochara, Shrule, Headford, Glencorrib, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,000monthly","Lecanvey, Murrisk, Westport, Co. Mayo",4 bedrooms,2 bathrooms,furnished
+140weekly,"Carrabawn, Aghagower, Co. Mayo",1 bedroom,1 bathroom,furnished
+"1,100monthly","Aiden Street, Kiltimagh, Co. Mayo",3 bedrooms,3 bathrooms,furnished
+"1,350monthly","Meadow Park, Castlebar, Co. Mayo",4 bedrooms,3 bathrooms,furnished
+"1,350monthly","28 The Moorings, Quay Road, Ballina, Co. Mayo",5 bedrooms,3 bathrooms,unfurnished
+900monthly,"Loughloon, Westport, Co. Mayo",2 bedrooms,2 bathrooms,furnished
+"1,150monthly","1 Gallows Hill, Castlebar, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+700monthly,"45 Slieve Na GrÃ©ine, Foxford, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,075monthly","Cloonacannana, Swinford, Co. Mayo",4 bedrooms,2 bathrooms,furnished
+"1,200monthly","13 Knockaphunta Park, Westport Road, Castlebar, Co. Mayo",3 bedrooms,3 bathrooms,furnished
+950monthly,"Ridgepool Village, Ballina, Co. Mayo",3 bedrooms,2 bathrooms,furnished
+"1,485monthly","52 Eden Court, Dunshaughlin, Co. Meath",4 bedrooms,3 bathrooms,furnished or unfurnished
+"1,300monthly","Castleglen, Donacarney, Co. Meath",2 bedrooms,2 bathrooms,furnished
+"1,450monthly","64 Tower View, Trim, Co. Meath",4 bedrooms,1 bathroom,furnish4 bedrooms
+"1,100monthly","56 Cloran Court, Athboy, Co. Meath",3 bedrooms,3 bathrooms,furnished
+"1,700monthly","Ledwidge Hall, Slane, Co. Meath",4 bedrooms,2 bathrooms,furnished
+"1,100monthly","43 Newman\'s Mill, Athboy, Co. Meath",3 bedrooms,3 bathrooms,furnished
+850monthly,"Apartment 2, 1 The Green, Summerhill, Co. Meath",1 bedroom,1 bathroom,furnished
+950monthly,"8 Newman\'s Mill, Athboy, Co. Meath",2 bedrooms,1 bathroom,furnished or unfurnished
+"1,600monthly","20a Headfort Park, Kells, Co. Meath",4 bedrooms,3 bathrooms,furnished or unfurnished
+"1,850monthly","Apartment 39, Ard Cluain, Clonee, Co. Meath",2 bedrooms,2 bathrooms,furnished
+"2,300monthly","Bailis Manor, Athlumney, Navan, Co. Meath",5 bedrooms,3 bathrooms,furnished
+"1,450monthly","1 Segrave Square, Ashbourne, Co. Meath",2 bedrooms,2 bathrooms,furnished
+"2,060monthly","Stonebridge, Ratoath, Co. Meath",3 bedrooms,3 bathrooms,furnished
+"1,600monthly","24 Loughcrew Hills, Oldcastle, Co. Meath",4 bedrooms,3 bathrooms,unfurnished
+"1,550monthly","1 Saint Patrick`s Square, Laytown, Co. Meath",4 bedrooms,2 bathrooms,furnish4 bedrooms
+"1,190monthly","Flat 4, 3 Navan Gate Street, Trim, Co. Meath",2 bedrooms,1 bathroom,furnished
+"1,250monthly","Porterstown Lane, Ratoath, Co. Meath",1 bedroom,1 bathroom,furnished
+"1,777monthly","61 Moulden Bridge, Ratoath, Co. Meath",4 bedrooms,3 bathrooms,furnished
+"2,000monthly","12 Maple Close Johnstown Wood Navan, Johnstown, Co. Meath",3 bedrooms,2 bathrooms,furnished
+550monthly,"Dublin Street, Monaghan, Co. Monaghan",1 bedroom,1 bathroom,furnished
+650monthly,"Dublin Street, Monaghan, Co. Monaghan",2 bedrooms,1 bathroom,furnished
+"1,200monthly","Drumleek North, Castleblayney, Castleblayney, Co. Monaghan",3 bedrooms,2 bathrooms,furnished
+895monthly,"Devlin, Castleblayney, Co. Monaghan",3 bedrooms,1 bathroom,furnished
+600monthly,"1 Braeside Apartments, Carrickaderry, Clontibret, Co. Monaghan",1 bedroom,1 bathroom,furnished
+650monthly,"Lower Main Street, Ballybay, Co. Monaghan",1 bedroom,1 bathroom,furnished
+"1,200monthly","63 Killyconnigan, Monaghan, Co. Monaghan",4 bedrooms,2 bathrooms,unfurnished
+"1,000monthly","Drumganny Apartments, Drumganny, Carrickmacross, Co. Monaghan",2 bedrooms,1 bathroom,furnished
+900monthly,"18 Cappaneale, Birr, Co. Offaly",2 bedrooms,1 bathroom,furnished
+"1,100monthly","The Four Winds, Fahy, Rhode, Co. Offaly",4 bedrooms,2 bathrooms,furnished
+800monthly,"Main Street, Geashill, Co. Offaly",2 bedrooms,1 bathroom,furnished or unfurnished
+"1,200monthly","Edgewater, Convent Road, Tullamore, Co. Offaly",2 bedrooms,1 bathroom,furnished
+"1,700monthly","Behan House, Arden Road, Tullamore, Co. Offaly",2 bedrooms,1 bathroom,furnished
+190weekly,"1, Cumberland Tce., Emmet Street, Birr, Co. Offaly",1 bedroom,1 bathroom,furnished
+"1,300monthly","Droim Liath, Tullamore, Co. Offaly",3 bedrooms,3 bathrooms,furnished
+"1,350monthly","Carraig Cluain, Tullamore, Co. Offaly",4 bedrooms,3 bathrooms,furnished
+800monthly,"Kylebeg, Banagher, Co. Offaly",2 bedrooms,1 bathroom,furnished
+850monthly,"Sharavogue, Birr, Co. Offaly",3 bedrooms,2 bathrooms,furnished
+320weekly,"Parkhouse, Portarlington, Co. Offaly",3 bedrooms,2 bathrooms,furnished or unfurnished
+"1,600monthly","Aughamore Clara, Tullamore, Co. Offaly",4 bedrooms,2 bathrooms,furnished
+600monthly,"12 Limefield Clonminch, Tullamore, Co. Offaly",4 bedrooms,4 bathrooms,furnished
+800monthly,"Breaghmore, Clareen, Birr, Co. Offaly",3 bedrooms,2 bathrooms,furnished
+"1,400monthly","60 CorrÃ¡n Riada, Monksland, Athlone, Co. Roscommon",4 bedrooms,3 bathrooms,furnished or unfurnished
+200weekly,"Riverwalk, Castlerea, Co. Roscommon",2 bedrooms,2 bathrooms,furnished
+750monthly,"Rooskey, Co. Roscommon",3 bedrooms,2 bathrooms,furnish3 bedrooms
+850monthly,"20 Curlew View, Boyle, Co. Roscommon",3 bedrooms,1 bathroom,furnished
+"1,100monthly","Oakdale 36, Athlone, Co. Roscommon",2 bedrooms,1 bathroom,furnished
+750monthly,"64 Watervale, Rooskey, Co. Roscommon",3 bedrooms,2 bathrooms,unfurnished
+"1,100monthly","Apartment 1 Inver Geal, Carrick-on-Shannon, Co. Roscommon",3 bedrooms,2 bathrooms,furnished
+800monthly,"Castlecourt, Ballaghaderreen, Co. Roscommon",3 bedrooms,2 bathrooms,furnished or unfurnished
+850monthly,"15 Brooklawn, Ballaghaderreen, Co. Roscommon",3 bedrooms,3 bathrooms,furnished or unfurnished
+"1,050monthly","Shroankeeragh, Carrick-on-Shannon, Co. Roscommon",4 bedrooms,1 bathroom,furnished
+"1,200monthly","Curraghmore, Kiltoom, Athlone, Co. Roscommon",3 bedrooms,1 bathroom,furnished
+900monthly,"21 Barrys Avenue, Tarmonbarry, Co. Roscommon",4 bedrooms,2 bathrooms,furnished
+950monthly,"53 Fairgreen Square, Sligo, Co. Sligo",2 bedrooms,2 bathrooms,furnished
+"1,500monthly","15 Ferndale, Cairns Road, Sligo, Co. Sligo",4 bedrooms,2 bathrooms,furnished or unfurnished
+"1,000monthly","313 Millbrook Jfk Parade, Toberscanavan, Co. Sligo",2 bedrooms,1 bathroom,furnished
+"1,100monthly","Caltragh Heights, Sligo, Co. Sligo",3 bedrooms,1 bathroom,furnished or unfurnished
+185weekly,"An Sibin, Monasteraden, Co. Sligo",2 bedrooms,1 bathroom,furnished
+"2,100monthly","Ballymulderry, Ballinfull, Ballinfull, Co. Sligo",4 bedrooms,2 bathrooms,furnished
+180weekly,"Hill House, Calry, Co. Sligo",2 bedrooms,2 bathrooms,furnished
+850monthly,"Clarion Village, Sligo, Co. Sligo",2 bedrooms,2 bathrooms,furnished
+"1,200monthly","37 Cnoc Na Si, Tubbercurry, Co. Sligo",3 bedrooms,3 bathrooms,furnished
+700monthly,"3 Leonard Court, Tubbercurry, Co. Sligo",2 bedrooms,2 bathrooms,furnished
+150weekly,"O'connell Street, Ballymote, Co. Sligo",1 bedroom,2 bathrooms,furnished
+"1,300monthly","29 Cnoc Na Si, Tubbercurry, Co. Sligo",4 bedrooms,3 bathrooms,furnished
+120weekly,"Loughanelteen, Calry, Co. Sligo",1 bedroom,1 bathroom,furnished
+"1,050monthly","Castle Dargan Estate, Ballygawley, Co. Sligo",2 bedrooms,2 bathrooms,furnished
+850monthly,"William O'brien Street, Old Bridge, Clonmel, Co. Tipperary",2 bedrooms,1 bathroom,furnished
+900monthly,"Serene Place, Ballina, Co. Tipperary",1 bedroom,1 bathroom,furnished
+750monthly,"Near Liberty Square, Thurles, Co. Tipperary",1 bedroom,1 bathroom,furnished
+950monthly,"8 Able Manor, Dundrum, Co. Tipperary",3 bedrooms,3 bathrooms,furnished
+135weekly,"Gratton Street, Tipperary Town, Co. Tipperary",1 bedroom,1 bathroom,furnished
+170weekly,"3 Nelson Street, Clonmel, Co. Tipperary",1 bedroom,1 bathroom,furnished
+900monthly,"Ard Alainn, Fethard, Co. Tipperary",3 bedrooms,2 bathrooms,furnished
+"1,000monthly","Lower Waterford Road, Carrick-on-Suir, Co. Tipperary",3 bedrooms,1 bathroom,furnished
+950monthly,"12 Glenview Square, Tipperary Town, Co. Tipperary",2 bedrooms,1 bathroom,unfurnished
+"1,180monthly","E45aw71 9 Lough Derg Thatched Cottage, Puckane,co, Puckaun, Co. Tipperary",3 bedrooms,1 bathroom,furnished
+200weekly,"The Lodge, Castle Gardens, Ardfinnan Road, Cahir, Co. Tipperary",2 bedrooms,1 bathroom,furnished
+"1,300monthly","3 Cudville, Nenagh, Co. Tipperary",1 bedroom,2 bathrooms,furnished or unfurnish1 bedroom
+"1,190monthly","Main St, Carrick On Suir, Carrick-on-Suir, Co. Tipperary",3 bedrooms,1 bathroom,furnished
+140weekly,"Gorteennabarna, Borrisoleigh, Co. Tipperary",2 bedrooms,1 bathroom,furnished
+"2,200monthly","Rochestown, Cahir, Cahir, Co. Tipperary",6 bedrooms,3 bathrooms,furnished
+120weekly,"Cahir, New Inn, Co. Tipperary",1 bedroom,1 bathroom,furnished
+"1,500monthly","Clongour, Thurles, Co. Tipperary",3 bedrooms,2 bathrooms,furnished or unfurnished
+500monthly,"Deerpark Farm, Carrick-on-Suir, Co. Tipperary",1 bedroom,1 bathroom,furnished
+750monthly,"Pallas, Borrisoleigh, Co. Tipperary",2 bedrooms,1 bathroom,unfurnished
+"1,300monthly","30 Cuan Na Greine, Crooke, Passage East, Co. Water, Waterford City, Co. Waterford",3 bedrooms,3 bathrooms,furnished
+"1,300monthly","52 Bracken Drive, Old Tramore Road, Waterford, Ballindud, Co. Waterford",3 bedrooms,3 bathrooms,furnished
+750monthly,"Cooladalane, Lismore, Co. Waterford",3 bedrooms,1 bathroom,furnished
+"1,400monthly","Williamstown Glen, Williamstown, Waterford City, Co. Waterford",3 bedrooms,2 bathrooms,furnished
+"1,400monthly","Carn Glas, Gracedieu, Co. Waterford",3 bedrooms,2 bathrooms,furnished
+190weekly,"Thomas St, Waterford City, Co. Waterford",1 bedroom,1 bathroom,furnished
+950monthly,"Apartment 5, Bridgeview Court, Waterford City, Co. Waterford",2 bedrooms,1 bathroom,furnished
+800monthly,"Annestown, Annestown, Co. Waterford",1 bedroom,1 bathroom,furnished
+800monthly,"The Malt House, Mary Street, Waterford City, Co. Waterford",1 bedroom,1 bathroom,furnished
+"1,400monthly","College Court, Waterford City, Co. Waterford",3 bedrooms,2 bathrooms,furnished
+"2,500monthly","Ballinclamper, Ballynacourty, Co. Waterford",4 bedrooms,3 bathrooms,furnished
+732monthly,"Haven Wood Retirement Home, Haven Wood Retirement Village, Bishopscourt, Ballygunner, Co. Waterford",1 bedroom,1 bathroom,furnished
+75weekly,"Lismore Park, Waterford City, Co. Waterford",3 bedrooms,2 bathrooms,furnished
+800monthly,"Manor Street, Waterford City, Co. Waterford",1 bedroom,1 bathroom,furnished
+"1,000monthly","Manor Street, Waterford City, Co. Waterford",2 bedrooms,1 bathroom,furnished
+"2,850monthly","New Line Road, Ardmore, Co. Waterford",4 bedrooms,3 bathrooms,furnished
+"1,500monthly","17 Kings Wood, Ballinakill, Waterford City, Co. Waterford",2 bedrooms,2 bathrooms,furnished
+950monthly,"16 Towns Park, Lismore, Co. Waterford",3 bedrooms,1 bathroom,furnished
+"1,200monthly","86 Conifer Road, Monvoy Valley, Tramore, Co. Waterford",3 bedrooms,3 bathrooms,furnished
+"1,350monthly","19 Asgard Drive, Grange Manor, Waterford City, Co. Waterford",3 bedrooms,3 bathrooms,furnished
+700monthly,"Lower Rowe Street, Wexford Town, Co. Wexford",1 bedroom,1 bathroom,furnished
+"1,000monthly","Cummer, Gorey, Wexford, Monaseed, Co. Wexford",4 bedrooms,3 bathrooms,furnished
+900monthly,"Grange Road, New Ross, Co. Wexford",2 bedrooms,2 bathrooms,furnished
+225weekly,"Ashbrook , The Moyne, Enniscorthy, Enniscorthy, Co. Wexford",2 bedrooms,2 bathrooms,unfurnished
+"1,000monthly","26 Bayview Drive, Wexford Town, Co. Wexford",3 bedrooms,2 bathrooms,unfurnished
+900monthly,"St John's Villas, Enniscorthy, Co. Wexford",2 bedrooms,2 bathrooms,furnished
+"1,400monthly","23 Ballyphilip Heights, Kilmyshall, Bunclody, Co. Wexford",4 bedrooms,2 bathrooms,furnished or unfurnish4 bedrooms
+950monthly,"8 Barrow Hall Mountgarrett New Ross, New Ross, Co. Wexford",2 bedrooms,1 bathroom,furnished
+"1,400monthly","34 Sandycove Phase 1, Ballymoney, Co. Wexford",3 bedrooms,2 bathrooms,furnished
+900monthly,"Wingfield View Ballinabarney, Gorey, Co. Wexford",2 bedrooms,1 bathroom,furnished
+"1,100monthly","47 Dunbrody Wharf, New Ross, Co. Wexford",3 bedrooms,3 bathrooms,unfurnished
+950monthly,"Parkton House, Parkton House, 13 Parkton House, Parnell Road, Enniscorthy, Co. Wexford",1 bedroom,1 bathroom,furnished or unfurnished
+"1,100monthly","Clonattin, Gorey, Co. Wexford",1 bedroom,1 bathroom,furnished
+800monthly,"Fully Furnished & Spacious 2-bed Apartment, New Ross, Co. Wexford",2 bedrooms,1 bathroom,furnished
+"1,000monthly","O'donovan's Wharf, Crescent Quay, Wexford Town, Co. Wexford",2 bedrooms,2 bathrooms,furnished
+900monthly,"Priory Quay, New Ross, Co. Wexford",3 bedrooms,2 bathrooms,furnished or unfurnished
+950monthly,"Waterloo Way, Francis Street, Wexford Town, Co. Wexford",2 bedrooms,2 bathrooms,furnished
+750monthly,"16a Windmill Heights, Belvedere Road, Wexford Town, Co. Wexford",2 bedrooms,1 bathroom,furnished
+170weekly,"Newcastle, Crossabeg, Co. Wexford",1 bedroom,2 bathrooms,furnished
+850monthly,"New Ross Town, New Ross, Co. Wexford",2 bedrooms,2 bathrooms,furnished
+950monthly,"The Orchard, Ballymahon Road, Athlone, Co. Westmeath",2 bedrooms,2 bathrooms,furnished
+"1,000monthly","Coola, Kilbeggan, Co. Westmeath",4 bedrooms,1 bathroom,furnished
+"1,600monthly","Belhavel, Athlone, Co. Westmeath",2 bedrooms,2 bathrooms,furnished
+750monthly,"Connaught Street, Athlone, Co. Westmeath",1 bedroom,1 bathroom,furnished
+"1,000monthly","Lockardstown N91 E8a0, Loughanavalley, Co. Westmeath",1 bedroom,1 bathroom,unfurnished
+"1,450monthly","11 The Park, Lakepoint, Mullingar, Co. Westmeath",4 bedrooms,3 bathrooms,unfurnished
+"1,400monthly","Apartment 24, Mount Prospect, Mullingar, Co. Westmeath",2 bedrooms,1 bathroom,furnished or unfurnished
+"1,200monthly","Apartment 28, Irishtown Central, Athlone, Co. Westmeath",2 bedrooms,2 bathrooms,furnished
+"1,350monthly","126 The Walk, Petitswood Manor, Mullingar, Co. Westmeath",3 bedrooms,3 bathrooms,furnished
+"1,075monthly","68 Cluain Craoibh, Kinnegad, Co. Westmeath",2 bedrooms,1 bathroom,furnished
+"1,400monthly","9 Woodville Lawn, Athlone, Co. Westmeath",4 bedrooms,3 bathrooms,furnished
+"1,100monthly","Windtown Park, Rathowen, Co. Westmeath",3 bedrooms,3 bathrooms,furnished
+"1,000monthly","The Willows, Ballinderry Road, Mullingar, Co. Westmeath",2 bedrooms,1 bathroom,furnished
+"1,400monthly","46 Cois Na Habhainn, Moate, Co. Westmeath",4 bedrooms,3 bathrooms,furnished
+975monthly,"Corbetstown, Killucan, Co. Westmeath",2 bedrooms,1 bathroom,furnished
+"1,450monthly","Churchlane, Moate, Co. Westmeath",3 bedrooms,2 bathrooms,furnished
+"1,250monthly","31 Marlinstown Park, Mullingar, Co. Westmeath",2 bedrooms,1 bathroom,furnished
+800monthly,"Brosna Apts, Mullingar, Co. Westmeath",1 bedroom,1 bathroom,furnished
+900monthly,"Castlelost Rochfortbridge, Rochfortbridge, Co. Westmeath",2 bedrooms,1 bathroom,furnished
+"1,200monthly","19 Saint Asicus Villas, Athlone, Co. Westmeath",3 bedrooms,1 bathroom,furnished
+"1,950monthly","Woodlands Court, Greystones, Co. Wicklow",2 bedrooms,2 bathrooms,furnished
+545monthly,"New Street, Wicklow Town, Co. Wicklow",1 bedroom,1 bathroom,unfurnish1 bedroom
+"2,700monthly","Marina Village, Greystones, Co. Wicklow",2 bedrooms,2 bathrooms,furnished
+"1,950monthly","The North Lodge, Castlekevin, Roundwood, Co. Wicklow",5 bedrooms,2 bathrooms,unfurnished
+"1,290monthly","Apt 1 Parkview House, Blessington, Co. Wicklow",1 bedroom,1 bathroom,furnished
+"1,200monthly","Apt, Ponyland, Upper Dargle Road, Bray, Co. Wicklow",1 bedroom,1 bathroom,furnished
+"2,900monthly","Ballymacahara, Ashford, Co. Wicklow",3 bedrooms,3 bathrooms,furnished
+"1,578monthly","Hollybrook Park, Bray, Co. Wicklow",2 bedrooms,1 bathroom,unfurnished
+"1,290monthly","The Green, Commons, Rathnew, Co. Wicklow",1 bedroom,2 bathrooms,furnished
+"1,950monthly","Knockrath Little, Rathdrum, Co. Wicklow",2 bedrooms,1 bathroom,unfurnished
+"1,450monthly","Primrose Cottage Ballinapark, Ashford, Co. Wicklow",2 bedrooms,1 bathroom,furnished
+"1,650monthly","Baltynanima, Roundwood, Co. Wicklow",2 bedrooms,1 bathroom,furnished
+"1,600monthly","Flat 1, Woodbrook, Dublin Road, Bray, Co. Wicklow",2 bedrooms,1 bathroom,furnished
+"1,725monthly","The Maltings, Bray, Co. Wicklow",2 bedrooms,1 bathroom,furnished
+"2,000monthly","Elgin Heights, Bray, Co. Wicklow",3 bedrooms,1 bathroom,furnished
+"2,100monthly","Fairyhill, Killarney Road, Bray, Co. Wicklow",2 bedrooms,2 bathrooms,furnished
+"1,470monthly","13 Park View Villas, Blessington, Co. Wicklow",2 bedrooms,2 bathrooms,furnished
+"1,395monthly","5 Brides Road, Wicklow Town, Co. Wicklow",2 bedrooms,1 bathroom,furnished

@@ -74,6 +74,10 @@ class Property:
         bathroom_count = ("bathroom_count =" + self.bathroom_count + "\n") 
         furnished_state = ("furnished_state =" + self.furnished_state + "\n")
         return (price+location+bedroom_count+bathroom_count+furnished_state)
+    
+    def toArr(self):
+        return [self.price, self.location, self.bedroom_count, self.bathroom_count, self.furnished_state]
+
 
 def get_chrome_web_driver(options):
     return webdriver.Chrome("./chromedriver", chrome_options=options)
@@ -106,7 +110,8 @@ def create_property(html):
         property_info = ((property_info[:property_info.find("(")-1]) + (property_info[property_info.find(")")+1:])).split(',')
         new_property = Property(
             location = (html.find("a").text),
-            price = (html.find("div", class_='sresult_description').find('h4').text),
+            ## for price we need to remove whitespice with replace(), strip newline char with .strip() and remove euro sign with [1:]
+            price = html.find("div", class_='sresult_description').find('h4').text.replace(" ", "").strip()[1:],
             bedroom_count = property_info[0],
             bathroom_count = property_info[1],
             furnished_state = property_info[2], 
@@ -114,22 +119,39 @@ def create_property(html):
         return new_property
     except:
         print("property didnt have enough features skipping")
+        return
 
 def create_dataset():
+    # stores properties as objects in dataset
     dataset = []
+    # stores properties as arrays in dataset
+    dataset_arr = []
     for index in range(len(urls)): 
         county_properties=get_properties(urls[index])
         for entry in county_properties:
             new_property = create_property(entry) 
-            dataset.append(new_property)
-    return dataset    
+            ## checking for empty object. Empty object may be returned when property doesnt conform to standard 
+            if new_property != None:
+                dataset.append(new_property)
+                dataset_arr.append(new_property.toArr())
+    return dataset,dataset_arr
 
 def print_dataset(dataset):
     for property_obj in dataset:
         print(property_obj)
     print("Dataset contains : ", len(dataset), " properties") 
 
-dataset = create_dataset()
+def update_csv(dataset_arr):
+    fields = ['location', 'price', 'bedroom_count', 'bathroom_count', 'furnished_state'] 
+
+    with open('dataset.csv', 'w', encoding='utf-8') as f:
+        # using csv.writer method from CSV package
+        write = csv.writer(f)
+        write.writerow(fields)
+        write.writerows(dataset_arr)
+
+dataset,dataset_arr = create_dataset()
 print_dataset(dataset)
+update_csv(dataset_arr)
 
     
