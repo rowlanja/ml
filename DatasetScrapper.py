@@ -44,9 +44,22 @@ urls.append("https://www.rent.ie/houses-to-let/renting_roscommon/")
 urls.append("https://www.rent.ie/houses-to-let/renting_limerick/")
 urls.append("https://www.rent.ie/houses-to-let/renting_longford/")
 urls.append("https://www.rent.ie/houses-to-let/renting_louth/")
+urls.append("https://www.rent.ie/houses-to-let/renting_mayo/")
+urls.append("https://www.rent.ie/houses-to-let/renting_meath/")
+urls.append("https://www.rent.ie/houses-to-let/renting_monaghan/")
+urls.append("https://www.rent.ie/houses-to-let/renting_offaly/")
+urls.append("https://www.rent.ie/houses-to-let/renting_roscommon/")
+urls.append("https://www.rent.ie/houses-to-let/renting_sligo/")
+urls.append("https://www.rent.ie/houses-to-let/renting_tipperary/")
+urls.append("https://www.rent.ie/houses-to-let/renting_tyrone/")
+urls.append("https://www.rent.ie/houses-to-let/renting_waterford/")
+urls.append("https://www.rent.ie/houses-to-let/renting_wexford/")
+urls.append("https://www.rent.ie/houses-to-let/renting_westmeath/")
+urls.append("https://www.rent.ie/houses-to-let/renting_wicklow/")
 
 class Property:
     def __init__(self, price, location, bedroom_count, bathroom_count, furnished_state):
+        # strip() removes new line characters
         self.price = price.strip()
         self.location = location.strip()
         self.bedroom_count = bedroom_count.strip()
@@ -86,6 +99,7 @@ def get_properties(url):
 
 def create_property(html):
     try:
+        ## property_info contains property characteristics like bedroom count, bathroom count, furnished state
         property_info = html.find("div", class_='sresult_description').find('h3').text.split(',')
         new_property = Property(
             location = (html.find("a").text),
@@ -101,9 +115,8 @@ def create_property(html):
 def create_dataset():
     dataset = []
     for index in range(len(urls)): 
-        properties=get_properties(urls[index])
-        for entry in properties:
-            ## property_info contains property characteristics like bedroom count, bathroom count, furnished state
+        county_properties=get_properties(urls[index])
+        for entry in county_properties:
             new_property = create_property(entry) 
             dataset.append(new_property)
     return dataset    
