@@ -105,7 +105,6 @@ def create_property(html, county_index):
         furnished = 1 if ("unfurnished" in (property_info[2])) else 0
         price = html.find("div", class_='sresult_description').find('h4').text.replace(" ", "").replace(",", "").strip()[1:]
         price = price[:price.find("(")]
-        print(property_info[2], furnished)
         if "weekly" in price or "week" in price:
             price = int(price.strip("weekly"))
             price *= 4
