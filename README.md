@@ -1,6 +1,6 @@
 ## Predicting Prices of Rental Properties around Ireland
 
-- Bair Buyrchiye
+- Bair Buyrchiyev
 - James Rowland
 - Vsevolod Syrtsov
 ## 1. Motivation: 
