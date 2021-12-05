@@ -18,38 +18,30 @@ from selenium import webdriver
 import requests
 import csv
 urls=[]
-urls.append("https://www.rent.ie/houses-to-let/renting_dublin/")
-urls.append("https://www.rent.ie/houses-to-let/renting_antrim/")
-urls.append("https://www.rent.ie/houses-to-let/renting_armagh/")
-urls.append("https://www.rent.ie/houses-to-let/renting_carlow/")
-urls.append("https://www.rent.ie/houses-to-let/renting_cavan/")
-urls.append("https://www.rent.ie/houses-to-let/renting_clare/")
-urls.append("https://www.rent.ie/houses-to-let/renting_cork/")
-urls.append("https://www.rent.ie/houses-to-let/renting_derry/")
-urls.append("https://www.rent.ie/houses-to-let/renting_donegal/")
-urls.append("https://www.rent.ie/houses-to-let/renting_down/")
-urls.append("https://www.rent.ie/houses-to-let/renting_fermanagh/")
-urls.append("https://www.rent.ie/houses-to-let/renting_galway/")
-urls.append("https://www.rent.ie/houses-to-let/renting_kerry/")
-urls.append("https://www.rent.ie/houses-to-let/renting_kildare/")
-urls.append("https://www.rent.ie/houses-to-let/renting_kilkenny/")
-urls.append("https://www.rent.ie/houses-to-let/renting_laois/")
-urls.append("https://www.rent.ie/houses-to-let/renting_leitrim/")
-urls.append("https://www.rent.ie/houses-to-let/renting_longford/")
-urls.append("https://www.rent.ie/houses-to-let/renting_louth/")
-urls.append("https://www.rent.ie/houses-to-let/renting_limerick/")
-urls.append("https://www.rent.ie/houses-to-let/renting_mayo/")
-urls.append("https://www.rent.ie/houses-to-let/renting_meath/")
-urls.append("https://www.rent.ie/houses-to-let/renting_monaghan/")
-urls.append("https://www.rent.ie/houses-to-let/renting_offaly/")
-urls.append("https://www.rent.ie/houses-to-let/renting_roscommon/")
-urls.append("https://www.rent.ie/houses-to-let/renting_sligo/")
-urls.append("https://www.rent.ie/houses-to-let/renting_tipperary/")
-urls.append("https://www.rent.ie/houses-to-let/renting_tyrone/")
-urls.append("https://www.rent.ie/houses-to-let/renting_waterford/")
-urls.append("https://www.rent.ie/houses-to-let/renting_wexford/")
-urls.append("https://www.rent.ie/houses-to-let/renting_westmeath/")
-urls.append("https://www.rent.ie/houses-to-let/renting_wicklow/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-1/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-2/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-3/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-4/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-5/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-6/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-7/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-8/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-9/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-10/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-11/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-12/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-13/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-14/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-15/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-16/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-17/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-18/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-19/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-20/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-21/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-22/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-23/")
+urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-24/")
 
 class Property:
     def __init__(self, price, location, bedroom_count, bathroom_count, furnished_state):
@@ -120,33 +112,41 @@ def create_property(html, county_index):
         )
         return new_property
     except:
-        print("property didnt have enough features skipping")
         return
 
 def create_dataset():
     # stores properties as objects in dataset
     dataset = []
     # stores properties as arrays in dataset
-    dataset_arr = []
+    datasetArr = []
     for index in range(len(urls)): 
-        county_properties=get_properties(urls[index])
-        for entry in county_properties:
-            new_property = create_property(entry, index) 
-            ## checking for empty object. Empty object may be returned when property doesnt conform to standard 
-            if new_property != None:
-                dataset.append(new_property)
-                dataset_arr.append(new_property.toArr())
-    return dataset,dataset_arr
+        processedAllUrls = False
+        pageIndex = 0 
+        while(processedAllUrls == False):
+            url = urls[index]+'page_'+str(pageIndex)+'/'
+            countyProperties=get_properties(url)
+            print('url : ', url, ' props : ',len(countyProperties))
+            if(len(countyProperties) == 0): 
+                processedAllUrls = True
+                break
+            for entry in countyProperties:
+                newProperty = create_property(entry, index) 
+                ## checking for empty object. Empty object may be returned when property doesnt conform to standard 
+                if newProperty != None:
+                    dataset.append(newProperty)
+                    datasetArr.append(newProperty.toArr())
+            pageIndex += 1
+    return dataset,datasetArr
 
 def print_dataset(dataset):
-    for property_obj in dataset:
-        print(property_obj)
+    # for property_obj in dataset:
+    #     print(property_obj)
     print("Dataset contains : ", len(dataset), " properties") 
 
 def update_csv(dataset_arr):
-    fields = ['price', 'location', 'bedroom_count', 'bathroom_count', 'furnished_state'] 
+    fields = ['price', 'location', 'bedroom_count', 'bathroom_count'] 
 
-    with open('dataset.csv', 'w', encoding='utf-8') as f:
+    with open('dublinDataset.csv', 'w', encoding='utf-8') as f:
         # using csv.writer method from CSV package
         write = csv.writer(f)
         write.writerow(fields)
