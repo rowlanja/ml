@@ -2,11 +2,25 @@ import matplotlib.pyplot as plt
 import pandas as pd
   
   
-data = pd.read_csv("Dataset.csv")
-  
-plt.scatter(data['location'], data['price'])
-plt.title("Scatter Plot")
-plt.ylabel('Price')
-plt.xlabel('Location')
-  
-plt.show()
+
+import csv
+ 
+# opening the CSV file
+with open('dublinDataset.csv', mode ='r')as file:
+   
+    # reading the CSV file
+    csvFile = csv.reader(file)
+    prices = []
+    locations = []
+    # displaying the contents of the CSV file
+    for lines in csvFile:
+        if len(lines) > 0:
+            if lines[0] == 'price':continue
+            prices.append(int(lines[0]))
+            locations.append(lines[1])
+            print(lines[0], lines[1])
+    plt.scatter(locations, prices)
+    plt.grid()
+    plt.xlabel('Dublin Area Code')
+    plt.ylabel('Price in euros per month')
+    plt.show()
