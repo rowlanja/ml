@@ -39,6 +39,7 @@ urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-18/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-20/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-22/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-24/")
+areaCodes = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,22,24]
 
 class Property:
     def __init__(self, price, location, bedroom_count, bathroom_count, furnished_state):
@@ -127,7 +128,7 @@ def create_dataset():
                 processedAllUrls = True
                 break
             for entry in countyProperties:
-                newProperty = create_property(entry, index+1) 
+                newProperty = create_property(entry, areaCodes[index]) 
                 ## checking for empty object. Empty object may be returned when property doesnt conform to standard 
                 if newProperty != None:
                     dataset.append(newProperty)
