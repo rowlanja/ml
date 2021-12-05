@@ -36,11 +36,8 @@ urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-15/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-16/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-17/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-18/")
-urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-19/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-20/")
-urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-21/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-22/")
-urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-23/")
 urls.append("https://www.rent.ie/houses-to-let/renting_dublin/dublin-24/")
 
 class Property:
@@ -130,7 +127,7 @@ def create_dataset():
                 processedAllUrls = True
                 break
             for entry in countyProperties:
-                newProperty = create_property(entry, index) 
+                newProperty = create_property(entry, index+1) 
                 ## checking for empty object. Empty object may be returned when property doesnt conform to standard 
                 if newProperty != None:
                     dataset.append(newProperty)
