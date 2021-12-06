@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split, KFold
 from sklearn.preprocessing import PolynomialFeatures
 
-data = open("Dataset.csv", "r")
+data = open("DublinDataset.csv", "r")
 next(data)
 
 x = []
@@ -24,7 +24,9 @@ y = np.array(y)
 
 mean_error = []
 std_error = []
-c_range = [0.01, 0.05, 0.1, 0.5, 1]
+c_range = [0.0001, 0.0005, 0.001, 0.005, 0.01]
+#c_range = [0.0000001, 0.0001, 0.0005, 0.001, 0.0015, 0.002]
+#c_range = [10, 100, 500, 1000, 5000, 10000]
 
 for c in c_range:
     temp = []
@@ -40,6 +42,6 @@ for c in c_range:
     std_error.append(np.array(temp).std())
 
 plt.errorbar(c_range, mean_error, yerr=std_error, ecolor="red")
-plt.xlabel("Ridge - C")
+plt.xlabel("Lasso - C")
 plt.ylabel("Mean square error")
 plt.show()
